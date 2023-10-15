@@ -13,8 +13,6 @@ const store = createStore(rootReducer);
 const App = () => {
   const [showSplash, setShowSplash] = useState(true);
 
-
-
   useEffect(() => {
     setTimeout(() => {
       setShowSplash(false);
